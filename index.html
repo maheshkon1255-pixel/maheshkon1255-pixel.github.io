@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Mahesh Kondeti is a backend and platform engineer building high-throughput distributed systems with Java, Kafka, AWS, Kubernetes, and modern observability." />
+    <meta name="theme-color" content="#07111f" />
+    <title>Mahesh Kondeti — Backend & Platform Engineer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+    <header class="site-header" id="top">
+      <a class="brand" href="#top" aria-label="Mahesh Kondeti home">
+        <span class="brand-mark">MK</span>
+        <span>Mahesh Kondeti</span>
+      </a>
+      <button class="menu-button" id="menuButton" aria-expanded="false" aria-controls="navLinks">Menu</button>
+      <nav class="nav-links" id="navLinks" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a class="nav-cta" href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section-shell">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="status-dot"></span> Backend &amp; Platform Engineer</div>
+          <h1>I build backend systems that stay <span>fast, reliable, and observable</span> at scale.</h1>
+          <p class="hero-lede">Java engineer with 5+ years of experience delivering event-driven platforms, high-throughput APIs, and cloud-native infrastructure at Meta and Shopify.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">View selected work <span aria-hidden="true">↘</span></a>
+            <a class="button button-quiet" href="mailto:maheshkon1255@gmail.com">Email me</a>
+          </div>
+          <div class="hero-meta">
+            <span>San Francisco, CA</span>
+            <span>Java · Kafka · AWS · Kubernetes</span>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" aria-label="Abstract diagram of a distributed system">
+          <div class="visual-label">SYSTEM / 01</div>
+          <svg viewBox="0 0 600 520" role="img" aria-labelledby="systemTitle systemDesc">
+            <title id="systemTitle">Event-driven platform architecture</title>
+            <desc id="systemDesc">Services connected through a durable event stream, cache, data store, and observability layer.</desc>
+            <defs>
+              <linearGradient id="nodeGradient" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#23d7cf" />
+                <stop offset="1" stop-color="#5d8bff" />
+              </linearGradient>
+              <filter id="glow"><feGaussianBlur stdDeviation="4" result="blur" /><feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge></filter>
+            </defs>
+            <g class="paths" fill="none" stroke="#56708f" stroke-width="2">
+              <path d="M93 130 C180 130 184 224 267 224" />
+              <path d="M93 360 C180 360 184 260 267 260" />
+              <path d="M335 240 C400 240 405 118 500 118" />
+              <path d="M335 240 C408 240 410 355 500 355" />
+              <path d="M300 275 L300 430" />
+            </g>
+            <g class="pulse" fill="none" stroke="url(#nodeGradient)" stroke-width="3" stroke-linecap="round">
+              <path d="M93 130 C180 130 184 224 267 224" pathLength="1" />
+              <path d="M335 240 C400 240 405 118 500 118" pathLength="1" />
+              <path d="M93 360 C180 360 184 260 267 260" pathLength="1" />
+              <path d="M335 240 C408 240 410 355 500 355" pathLength="1" />
+            </g>
+            <g class="node" filter="url(#glow)">
+              <circle cx="93" cy="130" r="26" /><circle cx="93" cy="360" r="26" />
+              <circle class="core" cx="300" cy="240" r="44" />
+              <circle cx="500" cy="118" r="26" /><circle cx="500" cy="355" r="26" />
+              <circle cx="300" cy="430" r="26" />
+            </g>
+            <g class="node-label">
+              <text x="93" y="88">API</text><text x="93" y="410">EVENTS</text>
+              <text x="300" y="247">KAFKA</text><text x="500" y="76">CACHE</text>
+              <text x="500" y="405">DATA</text><text x="300" y="480">TRACE</text>
+            </g>
+          </svg>
+          <div class="visual-foot"><span>EVENT-DRIVEN</span><span>FAULT-TOLERANT</span><span>CLOUD-NATIVE</span></div>
+        </div>
+      </section>
+
+      <section class="impact-strip" aria-label="Career impact highlights">
+        <div class="impact-item reveal"><strong>30%+</strong><span>lower P95 latency</span></div>
+        <div class="impact-item reveal"><strong>&lt;10s</strong><span>data synchronization</span></div>
+        <div class="impact-item reveal"><strong>45%</strong><span>faster incident resolution</span></div>
+        <div class="impact-item reveal"><strong>95%+</strong><span>unit-test coverage</span></div>
+      </section>
+
+      <section class="section-shell intro-section" id="about">
+        <div class="section-kicker reveal">01 / Profile</div>
+        <div class="intro-grid">
+          <h2 class="reveal">Engineering for the part after “it works.”</h2>
+          <div class="intro-copy reveal">
+            <p>I specialize in production systems where latency, delivery semantics, and failure behavior matter. My work spans microservices, real-time event pipelines, distributed data access, API platforms, and the observability needed to operate them confidently.</p>
+            <p>I care about clear service boundaries, measurable outcomes, and making reliability part of the design—not a patch added after launch.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-shell" id="work">
+        <div class="section-heading reveal">
+          <div><div class="section-kicker">02 / Selected work</div><h2>Systems with measurable impact.</h2></div>
+          <p>Three representative examples from high-scale social and commerce platforms.</p>
+        </div>
+
+        <div class="case-grid">
+          <article class="case-card case-featured reveal">
+            <div class="case-top"><span class="case-number">01</span><span class="case-tag">Distributed data</span></div>
+            <h3>Fault-tolerant change data capture</h3>
+            <p>Engineered a Kafka Connect and Debezium pipeline that streamed mutations from sharded MySQL into Kafka, decoupling downstream services from source databases.</p>
+            <ul>
+              <li>Sub-10-second synchronization</li>
+              <li>Idempotent processing and retries</li>
+              <li>Independent downstream scaling</li>
+            </ul>
+            <div class="stack-line">Kafka · Debezium · Kafka Connect · MySQL</div>
+          </article>
+
+          <article class="case-card reveal">
+            <div class="case-top"><span class="case-number">02</span><span class="case-tag">Performance</span></div>
+            <h3>GraphQL tail-latency optimization</h3>
+            <p>Optimized high-traffic resolver and asynchronous data-fetching paths through improved batching and request processing.</p>
+            <div class="case-metric"><strong>30%+</strong><span>P95 latency reduction</span></div>
+            <div class="stack-line">Java 21 · Spring Boot · GraphQL · OpenTelemetry</div>
+          </article>
+
+          <article class="case-card reveal">
+            <div class="case-top"><span class="case-number">03</span><span class="case-tag">Reliability</span></div>
+            <h3>Production observability</h3>
+            <p>Improved the connection between metrics, traces, and logs to shorten the path from customer symptom to root cause.</p>
+            <div class="case-metric"><strong>45%</strong><span>faster incident resolution</span></div>
+            <div class="stack-line">Prometheus · Grafana · OpenTelemetry · AWS</div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell experience" id="experience">
+        <div class="section-heading reveal">
+          <div><div class="section-kicker">03 / Experience</div><h2>Building at global scale.</h2></div>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-rail"><span></span></div>
+            <div class="timeline-date">2025 — PRESENT</div>
+            <div class="timeline-content">
+              <div class="role-line"><h3>Software Engineer</h3><span>Meta</span></div>
+              <p>Backend and platform engineering for Threads infrastructure supporting hundreds of millions of users.</p>
+              <div class="role-details">
+                <span>Java 21 / Spring Boot microservices</span><span>Kafka event pipelines</span><span>GraphQL and API infrastructure</span><span>Redis caching</span><span>Kubernetes on AWS/GCP</span><span>Observability and incident response</span>
+              </div>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-rail"><span></span></div>
+            <div class="timeline-date">2021 — 2024</div>
+            <div class="timeline-content">
+              <div class="role-line"><h3>Software Developer</h3><span>Shopify</span></div>
+              <p>Commerce microservices and event-driven platforms for orders, inventory, products, checkout, and search workflows.</p>
+              <div class="role-details">
+                <span>Java 17 / Spring Boot</span><span>Kafka and CDC</span><span>REST and GraphQL APIs</span><span>Redis and Elasticsearch</span><span>Saga-style transactions</span><span>Horizontal scaling</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell" id="skills">
+        <div class="section-heading reveal">
+          <div><div class="section-kicker">04 / Capabilities</div><h2>From request path to production platform.</h2></div>
+          <p>A systems-oriented toolkit for building, shipping, and operating modern backend products.</p>
+        </div>
+        <div class="skill-grid">
+          <article class="skill-card reveal"><span>01</span><h3>Backend engineering</h3><p>Java 21/17, Spring Boot, Python, REST, GraphQL, gRPC, OpenAPI, security, and clean architecture.</p></article>
+          <article class="skill-card reveal"><span>02</span><h3>Distributed systems</h3><p>Kafka, RabbitMQ, event-driven architecture, idempotency, Saga, CQRS, transactional outbox, and async processing.</p></article>
+          <article class="skill-card reveal"><span>03</span><h3>Cloud &amp; platform</h3><p>AWS, GCP, Docker, Kubernetes, Helm, Terraform, Jenkins, GitHub Actions, and zero-downtime delivery.</p></article>
+          <article class="skill-card reveal"><span>04</span><h3>Data &amp; observability</h3><p>PostgreSQL, MySQL, Redis, MongoDB, Elasticsearch, OpenTelemetry, Prometheus, Grafana, and ELK.</p></article>
+        </div>
+      </section>
+
+      <section class="principles">
+        <div class="section-shell principles-inner">
+          <div class="section-kicker reveal">05 / Engineering principles</div>
+          <div class="principle-grid">
+            <article class="reveal"><strong>Measure the critical path.</strong><p>Trace first, optimize the real bottleneck, and watch tail latency—not only averages.</p></article>
+            <article class="reveal"><strong>Design for redelivery.</strong><p>Assume retries and duplicates will happen; make business effects idempotent and recoverable.</p></article>
+            <article class="reveal"><strong>Operate what you ship.</strong><p>Dashboards, safe rollouts, runbooks, and failure modes are part of the design.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-shell education">
+        <div class="section-kicker reveal">06 / Education</div>
+        <div class="education-card reveal">
+          <div><span>Master of Science</span><h2>Informatics — Cloud Computing</h2></div>
+          <strong>Northeastern University</strong>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="section-shell contact-inner reveal">
+          <div class="section-kicker">07 / Contact</div>
+          <h2>Let’s build something that holds up in production.</h2>
+          <p>I’m open to backend, platform, and distributed-systems opportunities.</p>
+          <div class="contact-actions">
+            <a class="button button-light" href="mailto:maheshkon1255@gmail.com">maheshkon1255@gmail.com <span aria-hidden="true">↗</span></a>
+            <button class="button button-outline" id="copyEmail" type="button">Copy email</button>
+          </div>
+          <div class="contact-meta"><span>San Francisco, California</span><span id="copyStatus" aria-live="polite"></span></div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>© <span id="year"></span> Mahesh Kondeti</span>
+      <a href="#top">Back to top ↑</a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
